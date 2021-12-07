@@ -1,0 +1,226 @@
+<!doctype html>
+<html style="font-size: 16px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="MainTemplate.css" media=screen> 
+        <link rel="stylesheet" href="6_type_template.css" media=screen>
+        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="Home.css" media="screen">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.js">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"></script>
+        <style>
+            .row-header
+            {
+                margin:0px auto;
+                padding:0px;
+            }
+
+            .row-content 
+            {
+                margin:0px auto;
+                padding: 50px 0px 50px 0px;
+                border-bottom: 1px ridge;
+                min-height:400px;
+            }
+
+            .footer
+            {
+                background-color: #D1C4E9;
+                margin:0px auto;
+                padding: 20px 0px 20px 0px;
+            }
+            .jumbotron 
+            {
+                padding:70px 30px 70px 30px;
+                margin:0px auto;
+                background: #9575CD ;
+                color:floralwhite;
+            }
+            
+            address
+            {
+                font-size:80%;
+                margin:0px;
+                color:#0f0f0f;
+            }
+            #summary 
+            {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            #summary p.collapse:not(.show) 
+            {
+                height: 42px;
+                overflow: hidden;    
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+            }
+            #summary p.collapsing 
+            {
+                min-height: 42px;
+            }
+            #summary a.collapsed:after  {
+                content: '+ Read More';
+            }
+            html
+            {
+                scroll-behavior: smooth;
+            }
+            
+        </style>
+        <header class="jumbotron">
+            <ul class="u-nav u-unstyled u-nav-1">
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Home</a>
+                </li>
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;" target="_blank">About</a>
+                </li>
+                <li class="u-nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 10px 20px;" target="_blank">
+                        Places
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="ArvelemCaves.html" target="_blank">Arvelem Caves</a>
+                        <a class="dropdown-item" href="Tughlabad.html" target="_blank">Tughlaqabad</a>
+                        <a class="dropdown-item" href="MalutiTemples.html" target="_blank">MalutiTemples</a>
+                        <a class="dropdown-item" href="RaniKiVav.html" target="_blank">Rani Ki Vav</a>
+                        <a class="dropdown-item" href="UndavalliCaves.html" target="_blank">Undavalli Caves</a>
+                        <a class="dropdown-item" href="Unakoti.html" target="_blank">Unakoti</a>
+                        <a class="dropdown-item" href="KanchMahal.html" target="_blank">Kanch Mahal</a>
+                        </div>
+                    </div>
+                </li>
+        </header>
+        <title>Kanch Mahal</title>
+    </head>
+  ` <body class="u-body"> 
+        <section class="u-align-center u-clearfix u-section-1" id="sec-3e23">
+            <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+                <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                        <h1 class="u-blog-control u-text u-text-1">Kanch Mahal</h1><br>
+                        <nav class="navbar-expand-sm sticky-top navbar-light bg-light">
+                            <div class="container">
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Location">Location</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#History">History</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Folklore">Folklore</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Speciality">Speciality</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Marketing">Conclusion</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <img src="KanchMahal.jpg" class="u-container-layout u-similar-container u-valign-top roundCorner" width="600" height="400">
+                        <div class="u-blog-control u-metadata u-metadata-1">
+                            <span class="u-meta-date u-meta-icon">Nov 20,2021</span>
+                        </div>
+                        <h2 id="Location">Location of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="KanchMahalLoc.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary1">
+                                        Situated at Sikandar, Uttar Pradesh, The Kanch Mahal, which lies close to Akbar’s Tomb at Sikandra, is a testament to the domestic architectural style of the Mughals. This exquisite monument is shaped in the form of a square and was originally encircled by a beautiful garden with regular watercourses, causeways and tanks alike. Records show that the mahal was built from 1605 to 1619. It is called Kanch Mahal because of the abundant use of tile work in its construction. The Kanch Mahal, a 17th-century domestic building, is located east of Mughal Emperor Akbar's (r.1556-1605) tomb at Sikandra. It is believed to have been occupied by Emperor Jahangir's (r.1605-27) wife, Jodh Bai. Located southeast of Akbar's Tomb just outside the Jehangir Gate, Kanch Mahal is a beautiful little structure built between 1605 and 1619. It is believed to have served primarily as the residence of harems through historical evidence also suggests that it was used by emperor Jehangir as a hunting lodge. The two-story building is partially in ruins but is nonetheless a fine example of Mughal architecture. 
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="History">History of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="KanchMahal2.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary2">
+                                        No specific historical events are related to Kanch Mahal. As stated above, Kanch Mahal was established between the periods of 1605 to 1609. Due to the unique position of the palace, i.e. near the regal highway between Agra and Delhi, the palace fell easily to the destruction of invading forces along with rebellious populaces. As a consequence, most of its lovely constructions, especially the southern frontage which face the highway has been devastated during the corrupt era of late Mughal rulers. For a certain period, Kanch Mahal was under the control of the ‘Church Missionary Society’. However, at a later phase, the palace was acquired, reinstated and preserved by the Department of Archaeology.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary2" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Folklore">Folklore of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="KanchMahal1.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary3">
+                                        This place is said to have been built by Akbar for his wife Jodha when she asked for a small temple for her lord Krishna so that she could worship him with peace and harmony. Akbar is said to have built it in a form of a square with watercourses which later became a royal maiden’s house.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary3" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Speciality">Speciality of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="KanchMahal3.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary4">
+                                        Like every other Mughal architecture this too stands apart. Kanch Mahal demonstrates the domestic architecture of Mughal. It is a two-storeyed building, having a central hall. The central hall is rectangular shaped and is covered by a curved soffit. Every corner of the hall possesses four square-shaped rooms with two openings for airing. The central hall of Kanch Mahal is featured with octagonal double columns, which is based on a raised plinth on two sides of the hall. The hall opened on the north and south side in four-sided central concierges. Effectively organised and aired, Kanch Mahal was a beautiful modification of typical Mughal design.<br>Kanch Mahal is positioned within a little distance of the eastern side of the primary entrance of Akbar's Tomb. It was created by using stonework. The interiors of the building are beautifully painted and the exteriors are imprinted with red stonework. It was formerly surrounded by a garden with usual walkways, waterways and reservoirs. Two stairways in four corners of the palace lead to the second storey of the building. The second storey has a sequence of halls and rooms that resemble the ground plan. The complex below the window is not only open and ventilated but also bequeath upon the respective frontage of a consistently beautiful impression. They are all interrelated through short narrow passageways.<br>The northern and southern frontages of Kanch Mahal were originally identical, each possessing an extensive, reflective and splendid central portal, ascending almost the full altitude of the building. The eastern and western frontages of Kanch Mahal were also identical with northern and southern frontages, where each possessed the first floor, overlooking the arch and opened towards the corner room. The northern frontage has been designed very discerningly. The architecture has taken way out to a system of the cladding of the entire mural surface to work out parallel and perpendicular zones, each treated individualistically with flawless design. At present, only the northern frontage of Kanch Mahal is in good shape.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary4" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 id="Marketing"></h2><br><br>
+                        <h2>Conclusion</h2>
+                        <div class="row">
+                            <div class="col col-sm order-sm-first col-md">
+                                <p>
+                                    Kanch Mahal is a beautiful monument that is well-regarded by various travellers who came across Uttar Pradesh. The design of the building is excellent and exceptional and it is also regarded as one of the most elaborately finished creations of a classical Mughal period which makes the place worth visiting. Furthermore, travellers can also enjoy the interiors of Kanch Mahal which is decorated with sophisticated glaze and thus, can make them truly amazed.
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e990"><div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">© Copyright 2021 HUM1023 GROUP 4<br></p>
+            <a href="Citation.html" target="_blank">Click here for citations and references</a>
+        </footer>
+    </body>
+</html>

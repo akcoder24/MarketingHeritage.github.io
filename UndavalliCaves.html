@@ -1,0 +1,239 @@
+<!doctype html>
+<html style="font-size: 16px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="MainTemplate.css" media=screen> 
+        <link rel="stylesheet" href="6_type_template.css" media=screen>
+        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="Home.css" media="screen">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.js">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"></script>
+        <style>
+            .row-header
+            {
+                margin:0px auto;
+                padding:0px;
+            }
+
+            .row-content 
+            {
+                margin:0px auto;
+                padding: 50px 0px 50px 0px;
+                border-bottom: 1px ridge;
+                min-height:400px;
+            }
+
+            .footer
+            {
+                background-color: #D1C4E9;
+                margin:0px auto;
+                padding: 20px 0px 20px 0px;
+            }
+            .jumbotron 
+            {
+                padding:70px 30px 70px 30px;
+                margin:0px auto;
+                background: #9575CD ;
+                color:floralwhite;
+            }
+            
+            address
+            {
+                font-size:80%;
+                margin:0px;
+                color:#0f0f0f;
+            }
+            html 
+            {
+                scroll-behavior: smooth;
+            }
+            #menu 
+            {
+                position: fixed;
+                top: 30%;
+                width: 8em;
+                margin-top: -2.5em;
+            }
+            #summary 
+            {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            #summary p.collapse:not(.show) 
+            {
+                height: 42px;
+                overflow: hidden;    
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+            }
+            #summary p.collapsing 
+            {
+                min-height: 42px;
+            }
+            #summary a.collapsed:after  {
+                content: '+ Read More';
+            }
+            html
+            {
+                scroll-behavior: smooth;
+            }
+           
+            
+        </style>
+        <header class="jumbotron">
+            <ul class="u-nav u-unstyled u-nav-1">
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Home</a>
+                </li>
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;" target="_blank">About</a>
+                </li>
+                <li class="u-nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 10px 20px;" target="_blank">
+                        Places
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="ArvelemCaves.html" target="_blank">Arvelem Caves</a>
+                        <a class="dropdown-item" href="Tughlabad.html" target="_blank">Tughlabad</a>
+                        <a class="dropdown-item" href="MalutiTemples.html" target="_blank">MalutiTemples</a>
+                        <a class="dropdown-item" href="RaniKiVav.html" target="_blank">Rani Ki Vav</a>
+                        <a class="dropdown-item" href="UndavalliCaves.html" target="_blank">Undavalli Caves</a>
+                        <a class="dropdown-item" href="Unakoti.html" target="_blank">Unakoti</a>
+                        <a class="dropdown-item" href="KanchMahal.html" target="_blank">Kanch Mahal</a>
+                        </div>
+                    </div>
+                </li>
+        </header>
+        <title>Undavalli Caves</title>
+    </head>
+  ` <body class="u-body"> 
+        <section class="u-align-center u-clearfix u-section-1" id="sec-3e23">
+            <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+                <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                        <h1 class="u-blog-control u-text u-text-1">Undavalli Caves</h1><br>
+                        <nav class="navbar-expand-sm sticky-top navbar-light bg-light">
+                            <div class="container">
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Location">Location</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#History">History</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Folklore">Folklore</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Speciality">Speciality</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Marketing">Conclusion</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <img src="UndavalliCaves.jpg" class="u-container-layout u-similar-container u-valign-top roundCorner" width="600" height="400">
+                        <div class="u-blog-control u-metadata u-metadata-1">
+                            <span class="u-meta-date u-meta-icon">Nov 20,2021</span>
+                        </div>
+                        <h2 id="Location">Location of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="UndavalliCavesLoc.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary1">
+                                        Undavalli Caves lies in the Undavalli village in the Guntur district of Andhra Pradesh. From the city of Vijayawada the caves are located at the distance of 8 km and 32 km from Guntur. These caves are located at the top of the high hills facing the Krishna River. The hills surrounding Vijayawada are rich in rock-cut architecture, but the most impressive and largest of these monuments is Undavalli Caves — an astounding feat of engineering, a four-story rock-cut temple with countless sculptures and murals. The only means of connectivity for the caves is by road. APSRTC operates bus services from Vijayawada, Guntur and Amaravathi to this location. APCRDA runs Tourist Bus-cum-Boat services through Krishna River from Prakasam Barrage.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="History">History of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="UndavalliCaves2.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary2">
+                                        These four stories caves are said to be found in the 7th century. They are associated with the Vishnukundin Kings of AD 420 – 620. These exotic caves of Undavalli were dedicated to the Anantapadmanabha and Narisimhaswami. According to the historical evidences Madhava Reddy who ruled this region as the subordinate under the Reddies of Kondaveedu gifted the caves to the temple of Anantha Swamy. It is also believed that these caves were used by the Buddhist monks as the rest houses. Some of the other shrines in the cave are dedicated to the Trimurti, Brahma and Shiva. These ancient Hindu cave temples holds the great importance among the Hindus in India. These caves were originally excavated through the rock face between the 4th and 5th centuries CE, and served as Buddhist monasteries or viharas for monks. During this time, Amaravathi, located around 35 km away, was a great centre of trade and commerce, attracting merchants from all over the world. 
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary2" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Folklore">Folklore of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="UndavalliCaves3.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary3">
+                                        Not much of a folklore is found for this place as the history is pretty straightforward. However a legend states that the caves were left uncomplete due to the shortage of money and then later on rich merchants sponsered for the caves to be completed
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary3" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 id="Speciality">Speciality of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="UndavalliCaves4.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary4">
+                                        The first floor is accessed through one of eight or nine irregularly shaped entrances separated by massive square columns. The layout and style of the sculptures on the first floor indicate that this was a Buddhist vihara (monastery). Primitive rock-cut monastery cells make up part of the chambers. The hall isn't finished yet; it has eight columns. Trimurti is represented by three independent sanctuaries: Brahma, Vishnu, and Shivu, each with a pillared hall in front. Trimurti - a trinity of Brahma, Vishnu, and Shiva who embody the cosmic functions of creation, maintenance, and annihilation – is an essential idea in Hindu religion. On the first level, frescoes depicting scenes from mythical stories were painted in the 7th–8th centuries AD, however some paintings from later eras can also be found. The most magnificent sculpture in this temple may be found on the second floor: a massive, 5-meter-long statue of Lord Vishnu in his Padmanabha aspect, reclining. In addition, this statue mimics Buddha statues found in other cave temples. The sculpture is built of a single granite block. A canopy of multi-hooded Adi-Shesha, lord of all nagas, hangs over Vishnu, and the shrine is also embellished with various other sculptures.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary4" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Marketing"></h2><br><br>
+                        <h2>Conclusion</h2>
+                        <div class="row">
+                            <div class="col col-sm order-sm-first col-md">
+                                <p>
+                                    Besides admiring the architectural beauty of the Undavalli caves tourists can explore the nearby area around the Undavalli caves. When you reach at the top of the cave you get the finest view of the agricultural environment. You can kill time picking alongside the Krishna river. You can also take the leisure walk along the river and enchant with the local people. You may find children playing in the fields barefooted and their mothers working hard in the fields. Tourists can even take the boat ride in the river enjoying the surrounding beauty. After that you can even have lunch with the local villagers in the fields.
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e990"><div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">© Copyright 2021 HUM1023 GROUP 4<br></p>
+            <a href="Citation.html" target="_blank">Click here for citations and references</a>
+          </div>
+        </footer>
+    </body>
+</html>

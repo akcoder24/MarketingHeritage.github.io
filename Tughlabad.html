@@ -1,0 +1,227 @@
+<!doctype html>
+<html style="font-size: 16px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="MainTemplate.css" media=screen> 
+        <link rel="stylesheet" href="6_type_template.css" media=screen>
+        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="Home.css" media="screen">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.js">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"></script>
+        <style>
+            .row-header
+            {
+                margin:0px auto;
+                padding:0px;
+            }
+
+            .row-content 
+            {
+                margin:0px auto;
+                padding: 50px 0px 50px 0px;
+                border-bottom: 1px ridge;
+                min-height:400px;
+            }
+
+            .footer
+            {
+                background-color: #D1C4E9;
+                margin:0px auto;
+                padding: 20px 0px 20px 0px;
+            }
+            .jumbotron 
+            {
+                padding:70px 30px 70px 30px;
+                margin:0px auto;
+                background: #9575CD ;
+                color:floralwhite;
+            }
+            
+            address
+            {
+                font-size:80%;
+                margin:0px;
+                color:#0f0f0f;
+            }
+            #summary 
+            {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            #summary p.collapse:not(.show) 
+            {
+                height: 42px;
+                overflow: hidden;    
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+            }
+            #summary p.collapsing 
+            {
+                min-height: 42px;
+            }
+            #summary a.collapsed:after  {
+                content: '+ Read More';
+            }
+            html
+            {
+                scroll-behavior: smooth;
+            }
+            
+        </style>
+        <header class="jumbotron">
+            <ul class="u-nav u-unstyled u-nav-1">
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Home</a>
+                </li>
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;" target="_blank">About</a>
+                </li>
+                <li class="u-nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 10px 20px;" target="_blank">
+                        Places
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="ArvelemCaves.html" target="_blank">Arvelem Caves</a>
+                        <a class="dropdown-item" href="Tughlabad.html" target="_blank">Tughlaqabad</a>
+                        <a class="dropdown-item" href="MalutiTemples.html" target="_blank">MalutiTemples</a>
+                        <a class="dropdown-item" href="RaniKiVav.html" target="_blank">Rani Ki Vav</a>
+                        <a class="dropdown-item" href="UndavalliCaves.html" target="_blank">Undavalli Caves</a>
+                        <a class="dropdown-item" href="Unakoti.html" target="_blank">Unakoti</a>
+                        <a class="dropdown-item" href="KanchMahal.html" target="_blank">Kanch Mahal</a>
+                        </div>
+                    </div>
+                </li>
+        </header>
+        <title>Tughlaqabad</title>
+    </head>
+  ` <body class="u-body"> 
+        <section class="u-align-center u-clearfix u-section-1" id="sec-3e23">
+            <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+                <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                        <h1 class="u-blog-control u-text u-text-1">Tughlaqabad</h1><br>
+                        <nav class="navbar-expand-sm sticky-top navbar-light bg-light">
+                            <div class="container">
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Location">Location</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#History">History</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Folklore">Folklore</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Speciality">Speciality</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Marketing">Conclusion</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <img src="Tughlabad.jpg" class="u-container-layout u-similar-container u-valign-top roundCorner" width="600" height="400">
+                        <div class="u-blog-control u-metadata u-metadata-1">
+                            <span class="u-meta-date u-meta-icon">Nov 20,2021</span>
+                        </div>
+                        <h2 id="Location">Location of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="TughlabadLoc.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary1">
+                                        Tughlaqabad Fort is a ruined fort in Delhi, built by Ghiyas-ud-din Tughlaq, the founder of the Tughlaq dynasty, of the Delhi Sultanate of India in 1321, as he established the third historic city of Delhi, which was later abandoned in 1327. It lends its name to the nearby Tughlaqabad residential-commercial area as well as the Tughlaqabad Institutional Area. Tughlaq also built Qutub-Badarpur Road, which connected the new city to the Grand Trunk Road. The road is now known as Mehrauli-Badarpur Road. Surroundings are an important biodiversity area within the Northern Aravalli leopard wildlife corridor stretching from Sariska Tiger Reserve to Delhi. Historical place around the sanctuary is Badkhal Lake (6 km northeast), 10th-century ancient Surajkund reservoir and Anangpur Dam, Damdama Lake, Tughlaqabad Fort and Adilabad ruins (both in Delhi). It is contiguous to the seasonal waterfalls in Pali-Dhuaj-Kot villages of Faridabad, the sacred Mangar Bani and the Asola Bhatti Wildlife Sanctuary. There are several dozen lakes formed in the abandoned open pit mines in the forested hilly area of Delhi Ridge.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="History">History of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="Tughlabad2.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary2">
+                                        Ghazi Malik was a feudal lord for the Delhi-based Khilji rulers. Once, while taking a walk with his master, he proposed the development of a Fort upon a hillock in the southern part of Delhi. The king joked that Ghazi Malik would be required to build it himself when he assumed the throne of Delhi. His words ironically rang true as Ghazi Malik drove the Khilji rulers away in 1321 and took the title of Ghiyas-ud-din Tughlaq, commencing his own Tughlaq Dynasty of rulers. He immediately started the development of a city, which he had been dreaming of, including a beautiful fort for keeping invaders at bay. History also states that the fort was in use for only 4-5 years and then it was abandoned owing to the water scarcity at that place. Both Tughlaqabad and Jahanpanah, the two fortifications left behind by the Tughlaqs, evince this emphasis on bolstering defences and dynastic pride. But looking beyond the flinty Tughlaq monuments tells us that cities are shaped less by kings, and more by the people they govern.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary2" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Folklore">Folklore of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="Tughlabad3.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary3">
+                                        Legends state that Ghiyas-ud-din Tughlaq was hugely passionate about his new fort and he issued a dictum likewise stating that all Delhi labourers were to work only for the fort. Saint Nizamuddin Auliya, a well-known Sufi mystic, was angered since the work stopped on his well or Baoli. The saint cursed that ‘Hunuz Dilli Door Ast’ or ‘Delhi is still far away’, which is said to have kept the place abandoned to date. The emperor was engaged in a military campaign during this period in Bengal. He succeeded and was returning to Delhi when Muhammad bin Tughlaq, his son, met him at Kara, Uttar Pradesh. At his orders, allegedly, a tent or ‘Shamiana’ was made to drop on the emperor who was fatally crushed under it in 1324.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary3" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Speciality">Speciality of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="Tughlabad4.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary4">
+                                        Tughlaqabad still comprises several appealing and huge stone-made fortifications which surround the irregular city ground plan. The rubble-filled and sloping city walls make for a regular feature for monuments dating back to the Tughlaq Dynasty. They are roughly between 10-15 metres in terms of height, topped off by imposing battlements, parapets and circular bastions, which go up to two storeys in height. The city once reportedly contained 52 gates and only 13 are existent in contemporary times. There were seven rainwater tanks in the fortified city of the past, as per reports. Tughlaqabad Fort has three portions, namely its wider city zone, with houses developed along the rectangular grid between the gates and the citadel with the tower at the highest point called Bijai-Mandal. There are remnants of multiple halls and a long underground passage, as well. In the adjacent palace zone, there are residences for the royal family, with an underground passage still existent beneath the tower. A large part of the city cannot be accessed in recent times owing to the dense vegetation surrounding it. The major part is occupied by numerous settlements, particularly towards the lakes. To the south of the city was a huge artificial water reservoir within the fortified Ghiyath al-Din Tughlaq Tomb. The mausoleum stays linked to the fort via the elevated causeway. The fortress of Adilabad’s remains may be viewed towards the south-eastern corner and this was built several years later by Muhammad bin Tughlaq.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary4" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 id="Marketing"></h2><br><br>
+                        <h2>Conclusion</h2>
+                        <div class="row">
+                            <div class="col col-sm order-sm-first col-md">
+                                <p>
+                                    A place that was built out of passion stands in ruins in the modern world. What should have been as famous as the Qutub Minar lost its charm away in time. Was it the result of a Sufi's curse or simply due to water scarcity? Why is the place still left in ruins even today? There lie the answers to this only at the fort of curses.
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e990"><div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">© Copyright 2021 HUM1023 GROUP 4<br></p>
+            <a href="Citation.html" target="_blank">Click here for citations and references</a>
+          </div>
+        </footer>
+    </body>
+</html>

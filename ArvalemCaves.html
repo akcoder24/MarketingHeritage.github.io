@@ -1,0 +1,247 @@
+<!doctype html>
+<html style="font-size: 16px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="MainTemplate.css" media=screen> 
+        <link rel="stylesheet" href="6_type_template.css" media=screen>
+        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="Home.css" media="screen">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.js">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"></script>
+        
+        <style>
+            .row-header
+            {
+                margin:0px auto;
+                padding:0px;
+            }
+
+            .row-content 
+            {
+                margin:0px auto;
+                padding: 50px 0px 50px 0px;
+                border-bottom: 1px ridge;
+                min-height:400px;
+            }
+
+            .footer
+            {
+                background-color: #D1C4E9;
+                margin:0px auto;
+                padding: 20px 0px 20px 0px;
+            }
+            .jumbotron 
+            {
+                padding:70px 30px 70px 30px;
+                margin:0px auto;
+                background: #9575CD ;
+                color:floralwhite;
+            }
+            
+            address
+            {
+                font-size:80%;
+                margin:0px;
+                color:#0f0f0f;
+            }
+            #summary 
+            {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            #summary p.collapse:not(.show) 
+            {
+                height: 42px;
+                overflow: hidden;    
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;  
+            }
+            #summary p.collapsing 
+            {
+                min-height: 42px;
+            }
+            #summary a.collapsed:after  {
+                content: '+ Read More';
+            }
+            html
+            {
+                scroll-behavior: smooth;
+            }
+        </style>
+        <header class="jumbotron">
+            <ul class="u-nav u-unstyled u-nav-1">
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Home</a>
+                </li>
+                <li class="u-nav-item">
+                    <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;" target="_blank">About</a>
+                </li>
+                <li class="u-nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 10px 20px;" target="_blank">
+                        Places
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="ArvelemCaves.html" target="_blank">Arvalem Caves</a>
+                        <a class="dropdown-item" href="Tughlabad.html" target="_blank">Tughlaqabad</a>
+                        <a class="dropdown-item" href="MalutiTemples.html" target="_blank">MalutiTemples</a>
+                        <a class="dropdown-item" href="RaniKiVav.html" target="_blank">Rani Ki Vav</a>
+                        <a class="dropdown-item" href="UndavalliCaves.html" target="_blank">Undavalli Caves</a>
+                        <a class="dropdown-item" href="Unakoti.html" target="_blank">Unakoti</a>
+                        <a class="dropdown-item" href="KanchMahal.html" target="_blank">Kanch Mahal</a>
+                        </div>
+                    </div>
+                </li>
+        </header>
+        <title>Arvelem Caves</title>
+    </head>
+  ` <body class="u-body"> 
+        <section class="u-align-center u-clearfix u-section-1" id="sec-3e23">
+            <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+                <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                        <h1 class="u-blog-control u-text u-text-1">Arvalem Caves</h1><br>
+                        <nav class="navbar-expand-sm sticky-top navbar-light bg-light">
+                            <div class="container">
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#Location">Location</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#History">History</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Folklore">Folklore</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Speciality">Speciality</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#Marketing">Conclusion</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <img src="ArvelemCaves.jpg" class="u-container-layout u-similar-container u-valign-top roundCorner" width="600" height="400">
+                        <div class="u-blog-control u-metadata u-metadata-1">
+                            <span class="u-meta-date u-meta-icon">Nov 20,2021</span>
+                        </div>
+                        <h2 id="Location"></h2><br><br>
+                        <h2>Location of the place</h2>
+                        <div id="module" class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="ArvelemCavesLoc.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary1">
+                                        Apart from the admirable beaches and waterfalls, Goa is also one of the most sought after destinations for heritage architecture. Goa is an ancient state and so is the architecture found here. A beautiful example of the historical monuments present in Goa is the Arvalem Caves or the “Pandava Caves”. Located in the Bicholim town of North Goa, these caves are ancient rock-cut caves that give us a chance to steep into the mythological tales. The origin of these caves dates back to the 6th century.t a distance of 29 km from Panjim Kadamba Bus Stand, 46 km from Vasco Da Gama Railway station and 9 km south of Bicholim, Arvalem caves are 6th-century ancient rock-cut caves situated in North Goa
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary1" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <br>          
+                        <h2 id="History"></h2><br><br>
+                        <h2>History of the place</h2>
+                        <div class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="ArvelemCaves4.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary2">
+                                        These caves are believed to have been carved in the 6th century. The origins of the caves have been speculated upon by scholars time and time again. Due to the duality of the carvings and artefacts in the caves, they have narrowed this down to two possibilities that they are either of Buddhist origin or Brahmin origin. Popularly known as the Pandava Caves, these caves have derived their name from the five Pandavas of the epic Mahabharata. As the legend has it, the Pandavas sought refuge in these caves during their exile. The presence of five compartments and Shivlingas in the cave complex provides relevance to this fact. However, the caves have also been claimed to be of Buddhist origin due to the presence of a huge statue of Buddha near the place. The architectural style of the caves also speaks loud of the Buddhist possession. The opinions regarding the origin of the caves have been ambivalent for years.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary2" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <h2 id="Folklore"></h2><br><br>
+                        <h2>Folklore of the place</h2>
+                        <div class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="ArvelemCaves2.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary3">
+                                        Popularly known as the Pandava Caves, these caves have derived their name from the five Pandavas of the epic Mahabharata. As the legend has it, the Pandavas sought refuge in these caves during their exile. The presence of five compartments and Shivlingas in the cave complex provides relevance to this fact. However, the caves have also been claimed to be of Buddhist origin due to the presence of a huge statue of Buddha near the place. The architectural style of the caves also speaks loud of the Buddhist possession. The opinions regarding the origin of the caves have been ambivalent for years. The excavated Buddha statue can be now witnessed in the Goa museum. It is also called the "Harvalem Caves" by the locals. With the vihara at the south and sanctuary at the north, the structure of the caves seems very much to be in the style of a classic Buddhist rock cave. People believe that some travelling Buddhist monks carved the entire cave out of a single laterite stone. In the second compartment of the cave, there is an inscription of the Sanskrit and Brahmi languages dating back to the 7th century.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary3" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h2 id="Speciality"></h2><br><br>
+                        <h2>Speciality of the place</h2>
+                        <div class="row">
+                            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                                <img src="ArvelemCaves3.jpg" class="roundCorner" alt="" width="300" height="200"></img>
+                            </div>
+                            <div class="col col-sm order-sm-first col-md">
+                                <div id="summary">
+                                    <p class="collapse" id="collapseSummary4">
+                                        These rock-cut caves were mined out of a single enormous laterite rock. The caves consist of five compartments which are held up by pillars. There are also Shivlings carved out of granite which has been placed on pedestals within these compartments. The Shivlings are sacred to the local people who still pay homage to them. The walls and ceilings of the caves are bare and innocent of any cave paintings. In fact, to those used to the effusive carvings and intricate work usually found at such sites, the caves present an unusually simplistic and rustic appearance. It is this which makes them unique among similar heritage sites. The Shivlings show carvings that are similar to those seen at the Ellora and Elephanta caves. The one in the middle compartments is known as the Lingam and is greatly revered till the present day. The Ling in the second cave is dedicated to the sun. It bears an inscription which read “Sambalur Vasi Ravih” which has been dated circa 600 A.D. This particular Ling and inscription are ascribed to the Bhoja period, specifically during the rule of King Kapalivarman. There is further credence given to the tales of Buddhist origin by the discovery of an enormous statue of Gautama Buddha situated not far from the caves. There was also a Buddha head that was found at the Mhamai Kamat house which was dated to the 4th Century. This is on display at the Goa Museum. Simple and rustic, these caves are a great place to visit to see with one’s own eyes the enduring nature of the endeavours of man. A visit to the caves can be clubbed together with a visit to the Arvalem Falls as well as the famous Rudhreshwar temple. which is located in the nearby village of Harvalem.
+                                    </p>
+                                    <a class="collapsed" data-toggle="collapse" href="#collapseSummary4" aria-expanded="false" aria-controls="collapseSummary"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <h2 id="Marketing"></h2><br><br>
+                        <h2>Conclusion</h2>
+                        <div class="row">
+                            <div class="col col-sm order-sm-first col-md">
+                                <p>
+                                    Every place has a unique story to present, a history that trails back to the start of time. Such is this place 
+                                    of Arvelem caves. Along with spectacular history comes the architecture of the place. Made out of a single 
+                                    enormous laterite rock with 5 separate rooms and each room having a shiv ling in them is an ancient piece of 
+                                    history to be visited. Beneath the magnificent architecture there lies a mystery to it, a secret to be 
+                                    unravelled, after-all who built the caves? Whose origin was this from? Why was it hidden away from the 
+                                    traveller's eye? The answers to these questions lie only in one place...
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+
+                        
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-e990"><div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">© Copyright 2021 HUM1023 GROUP 4<br></p>
+            <a href="Citation.html" target="_blank">Click here for citations and references</a>
+        </footer>
+        <Script src = "https://jquery.com/"> </script>
+        <Script src = "node_modules\bootstrap\dist\js\bootstrap.js"> </script>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</html>
